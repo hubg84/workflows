@@ -2,7 +2,7 @@ name: Run Arukereso.py and save urls.txt
 
 on:
   schedule:
-    - cron: "36 14 * * *"  # minden nap 15:30 magyar idő (14:30 UTC)
+    - cron: "48 07 * * *"  # minden nap 15:30 magyar idő (14:30 UTC)
   workflow_dispatch:        # manuálisan is indítható
 
 jobs:
